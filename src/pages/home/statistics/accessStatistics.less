@@ -1,0 +1,96 @@
+.access {
+	background-color: #f0f2f5;
+	margin: -24px;
+	// min-width: 1226px;
+	.header-tit {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	h4.title {
+		font-size: 22px;
+		font-family: SourceHanSansCN-Regular;
+		line-height: 22px;
+		color: #333333;
+		margin-bottom: 26px;
+	}
+	.header {
+		width: 100%;
+		background-color: #fff;
+		margin-bottom: 10px;
+		padding: 20px 40px 0;
+		display: flex;
+		justify-content: space-between;
+		.ant-col {
+			display: flex;
+			flex-wrap: wrap;
+			margin-bottom: 10px;
+			.ant-input,
+			.ant-select {
+				width: 140px;
+				margin-right: 20px;
+				height: 32px;
+			}
+			.ant-select.tempIdName {
+				width: 200px;
+			}
+			.ant-btn-primary {
+				margin-right: 12px;
+			}
+			ul {
+				margin-top: 5px;
+				padding-left: 0;
+				display: flex;
+				li {
+					list-style: none;
+					margin-right: 24px;
+					color: #999;
+					cursor: pointer;
+					&:hover {
+						color: #23b5fa;
+					}
+					&.active {
+						color: #23b5fa;
+					}
+				}
+			}
+			.ant-picker {
+				height: 32px;
+			}
+		}
+	}
+	.main {
+		max-height: 650px;
+		overflow-y: auto;
+	}
+
+	.list-box {
+		width: 100%;
+		background: #ffffff;
+		padding: 36px 40px 20px;
+		margin-bottom: 10px;
+		.title {
+			span {
+				font-size: 14px;
+				font-family: SourceHanSansCN-Regular;
+				line-height: 30px;
+				color: #999999;
+			}
+			svg {
+				margin-left: 20px;
+				margin-right: 6px;
+			}
+		}
+		.echarts {
+			width: 100%;
+			padding-right: 10px;
+			// max-height: 400px;
+			// overflow-y: auto;
+		}
+	}
+	.visit-length {
+		width: 100%;
+		background: #ffffff;
+		padding: 36px 40px 38px;
+	}
+}

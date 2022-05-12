@@ -1,0 +1,240 @@
+.userStatistics {
+	// min-width: 1226px;
+	max-height: 773px;
+	margin: -24px;
+	background-color: #f0f2f5;
+	overflow-y: hidden;
+	h4.title {
+		font-size: 22px;
+		font-family: SourceHanSansCN-Regular;
+		line-height: 22px;
+		color: #333333;
+		margin-bottom: 26px;
+	}
+	.header {
+		width: 100%;
+		height: 56px;
+		background-color: #fff;
+		margin-bottom: 10px;
+		padding-left: 40px;
+		display: flex;
+		ul {
+			margin-bottom: 0;
+			padding-left: 0;
+			display: flex;
+			li {
+				height: 56px;
+				line-height: 56px;
+				list-style: none;
+				margin-right: 24px;
+				color: #333;
+				cursor: pointer;
+				font-size: 15px;
+				&:hover {
+					color: #23b5fa;
+				}
+				&.active {
+					color: #23b5fa;
+					border-bottom: 3px solid #23b5fa;
+				}
+			}
+		}
+	}
+	.header-tit {
+		display: flex;
+		justify-content: space-between;
+	}
+	.searchBox {
+		width: 100%;
+		background-color: #fff;
+		margin-bottom: 10px;
+		padding: 25px 40px 15px;
+		display: flex;
+		justify-content: space-between;
+		.topic {
+			position: relative;
+			p {
+				position: absolute;
+				bottom: -36px;
+				left: 0;
+			}
+		}
+		.ant-col {
+			display: flex;
+			flex-wrap: wrap;
+			margin-bottom: 10px;
+			.ant-input,
+			.ant-select {
+				width: 140px;
+				margin-right: 20px;
+				height: 32px;
+			}
+			.ant-select.tempIdName {
+				width: 200px;
+			}
+			.ant-btn-primary {
+				margin-right: 12px;
+			}
+			ul {
+				margin-top: 5px;
+				margin-bottom: 0;
+				padding-left: 0;
+				display: flex;
+				li {
+					list-style: none;
+					margin-right: 24px;
+					color: #999;
+					cursor: pointer;
+					font-size: 14px;
+					&:hover {
+						color: #23b5fa;
+					}
+					&.active {
+						color: #23b5fa;
+					}
+				}
+			}
+			.ant-picker {
+				height: 32px;
+			}
+		}
+	}
+	.main {
+		height: 661px;
+		overflow-y: auto;
+	}
+	.content {
+		width: 100%;
+		height: 426px;
+		display: flex;
+		margin-bottom: 10px;
+		&.content1,
+		&.content2 {
+			height: calc(100% - 46px);
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+		.left {
+			width: 310px;
+			height: 100%;
+			margin-right: 10px;
+			background-color: #fff;
+			padding: 35px 40px;
+		}
+		.right {
+			width: calc(100% - 320px);
+			height: 100%;
+			background-color: #fff;
+			padding: 35px 40px;
+		}
+		p.update {
+			font-size: 14px;
+			font-family: SourceHanSansCN-Regular;
+			color: #999999;
+			margin-bottom: 40px;
+			svg {
+				margin-right: 6px;
+			}
+		}
+		.box {
+			height: 128px;
+			background-color: #fafafa;
+			padding: 30px 38px;
+			margin-bottom: 20px;
+			p {
+				color: #999;
+				font-size: 14px;
+				margin-bottom: 3px;
+				span.anticon {
+					margin-left: 5px;
+					cursor: pointer;
+				}
+			}
+			.num {
+				font-size: 28px;
+				color: #333;
+				font-weight: bold;
+			}
+		}
+		.right {
+			.header {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				margin-bottom: 16px;
+				padding: 0;
+				.title {
+					margin-bottom: 10px;
+				}
+				& > div {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					max-width: 510px;
+				}
+				ul {
+					// margin-top: 5px;
+					display: flex;
+					padding-left: 0;
+					li {
+						list-style: none;
+						margin-right: 24px;
+						color: #999;
+						cursor: pointer;
+						&:hover {
+							color: #23b5fa;
+						}
+						&.active {
+							color: #23b5fa;
+						}
+					}
+				}
+				.ant-picker {
+					margin-top: -5px;
+					height: 32px;
+					width: 40%;
+					min-width: 200px;
+				}
+			}
+			.top,
+			.bottom {
+				padding: 35px 40px;
+				position: relative;
+			}
+			.top {
+				border-bottom: 1px solid #f0f2f5;
+			}
+		}
+	}
+
+	.list-box {
+		width: 100%;
+		background: #ffffff;
+		padding: 36px 40px 20px;
+		margin-bottom: 10px;
+		.title {
+			span {
+				font-size: 14px;
+				font-family: SourceHanSansCN-Regular;
+				line-height: 30px;
+				color: #999999;
+			}
+			svg {
+				margin-left: 20px;
+				margin-right: 6px;
+			}
+		}
+		.echarts {
+			width: 100%;
+			padding-right: 10px;
+			// max-height: 400px;
+			// overflow-y: auto;
+		}
+	}
+	.visit-length {
+		width: 100%;
+		background: #ffffff;
+		padding: 36px 40px 38px;
+	}
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9c75819-01c5-4e89-b336-a0386c781bd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/addBoutique.modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/addBoutique.modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/case.modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/case.modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/utils/list.table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/utils/list.table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/api.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/api.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/operate/operateExcellentCase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/operate/operateExcellentCase.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="3D-Admin-React" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23MRVX60kIOcas7AXzTpcr9IBSf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ts.external.directory.path" value="E:\zsy\work\yunzhan\3D-Admin-React\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\zsy\work\yunzhan\3D-Admin-React\src\assets\images" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9c75819-01c5-4e89-b336-a0386c781bd0" name="Default Changelist" comment="" />
+      <created>1641541993964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641541993964</updated>
+      <workItem from="1641541995377" duration="2001000" />
+      <workItem from="1641778936440" duration="416000" />
+      <workItem from="1641779386023" duration="10019000" />
+      <workItem from="1641953602197" duration="1502000" />
+      <workItem from="1642036634452" duration="595000" />
+      <workItem from="1642041366573" duration="3111000" />
+      <workItem from="1642131651336" duration="754000" />
+      <workItem from="1642382461258" duration="46000" />
+      <workItem from="1642475954978" duration="1216000" />
+      <workItem from="1642647181980" duration="1816000" />
+      <workItem from="1643191853771" duration="2015000" />
+      <workItem from="1644893188137" duration="47000" />
+      <workItem from="1644973503057" duration="612000" />
+      <workItem from="1644983299036" duration="1041000" />
+      <workItem from="1645518823488" duration="27000" />
+      <workItem from="1645521995479" duration="25000" />
+      <workItem from="1646117916702" duration="622000" />
+      <workItem from="1647242217726" duration="1528000" />
+      <workItem from="1647331420961" duration="928000" />
+      <workItem from="1647400443283" duration="1640000" />
+      <workItem from="1647513351042" duration="1747000" />
+      <workItem from="1647588746947" duration="498000" />
+      <workItem from="1647589695930" duration="2359000" />
+      <workItem from="1647919097372" duration="853000" />
+      <workItem from="1647938757266" duration="550000" />
+      <workItem from="1648022432275" duration="879000" />
+      <workItem from="1648034145634" duration="607000" />
+      <workItem from="1649470423648" duration="58000" />
+      <workItem from="1650615768497" duration="2491000" />
+      <workItem from="1650814593518" duration="243000" />
+      <workItem from="1650815245840" duration="709000" />
+      <workItem from="1651127039128" duration="3290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="224" key="FileChooserDialogImpl" timestamp="1647570667603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="224" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647570667603" />
+    <state x="667" y="224" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1642382505560" />
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1650814667475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1650814667475" />
+    <state x="567" y="220" width="786" height="600" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1644893232775" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/modal/addBoutique.modal.tsx</url>
+          <line>41</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

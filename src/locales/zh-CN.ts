@@ -1,0 +1,23 @@
+export default {
+	"site.title": "网站标题",
+	"params.error": "参数错误",
+	"access.pass": "访问密码",
+	"input.pass": "请输入密码",
+	"showcase.show": "进入浏览",
+	"scene.tips.text1": "左/右拖动 改变视角",
+	"scene.tips.text2": "点击地面圆圈 逛逛展厅",
+	"scene.tips.text3": "键盘上/下/左/右移动视点",
+	"scene.info.down": "展开",
+	"scene.info.up": "收起",
+	"scene.tour.play": "播放",
+	"scene.visual.btn": "视角",
+	"scene.comment.btn": "留言",
+	"scene.visual.roam": "漫游",
+	"scene.visual.3d": "三维",
+	"scene.visual.bird": "鸟瞰",
+	"scene.map.btn": "地图",
+	"scene.music.btn": "音乐",
+	"scene.share.btn": "分享",
+	"share.title": "二维码分享:",
+	"share.link": "链接分享:"
+}

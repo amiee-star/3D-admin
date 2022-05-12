@@ -1,0 +1,78 @@
+{
+	"name": "3d-admin-react",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "cross-env API_ENV=pro umi build",
+		"build:pro": "cross-env API_ENV=pro umi build",
+		"build:mo": "cross-env API_ENV=mo umi build",
+		"test": "cross-env umi build",
+		"mo": "cross-env API_ENV=mo umi build",
+		"sort": "npx sort-package-json",
+		"start": "umi dev",
+		"start:hemiao": "cross-env API_ENV=hemiao umi dev",
+		"start:chenyongfeng": "cross-env API_ENV=chenyongfeng umi dev",
+		"start:mo": "cross-env API_ENV=moDev umi dev",
+		"start:pro": "cross-env API_ENV=pro umi dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://192.168.20.15:8089/yunzhan/3D-Admin-React.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"lint-staged": {
+		"*.ts?(x)": [
+			"prettier --parser=typescript --write"
+		],
+		"*.{js,jsx,less,md,json}": [
+			"prettier --write"
+		]
+	},
+	"gitHooks": {
+		"pre-commit": "lint-staged"
+	},
+	"devDependencies": {
+		"@types/classnames": "2.2.11",
+		"@types/crypto-js": "4.0.1",
+		"@types/echarts": "4.9.7",
+		"@types/qs": "6.9.5",
+		"@types/react-beautiful-dnd": "13.0.0",
+		"@types/sortablejs": "1.10.6",
+		"@types/spark-md5": "3.0.2",
+		"cross-env": "7.0.3",
+		"prettier": "2.2.1",
+		"typescript": "4.1.2",
+		"umi": "3.3.3"
+	},
+	"dependencies": {
+		"@ant-design/icons": "4.3.0",
+		"@sentry/react": "^6.19.7",
+		"@sentry/tracing": "^6.19.7",
+		"@types/echarts": "4.9.7",
+		"@umijs/preset-react": "1.7.9",
+		"@umijs/test": "3.3.3",
+		"antd": "4.13.1",
+		"axios": "0.21.0",
+		"classnames": "2.2.6",
+		"copy-to-clipboard": "3.3.1",
+		"cropperjs": "1.5.9",
+		"crypto-js": "4.0.0",
+		"echarts": "4.9.0",
+		"echarts-for-react": "3.0.1",
+		"eventemitter3": "4.0.7",
+		"iconv-lite": "0.6.2",
+		"jszip": "3.6.0",
+		"leancloud-storage": "4.11.1",
+		"lodash": "4.17.20",
+		"moment": "2.29.1",
+		"react": "17.0.1",
+		"react-beautiful-dnd": "13.0.0",
+		"react-countup": "4.3.3",
+		"react-dom": "17.0.1",
+		"react-helmet": "6.1.0",
+		"sortablejs": "1.13.0",
+		"spark-md5": "3.0.1"
+	}
+}

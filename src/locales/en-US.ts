@@ -1,0 +1,23 @@
+export default {
+	"site.title": "SiteTitle",
+	"params.error": "Params Error",
+	"access.pass": "Access Password",
+	"input.pass": "Please input password",
+	"showcase.show": "Enter Sence",
+	"scene.tips.text1": "Drag left / right to change perspective",
+	"scene.tips.text2": "Click the circle on the ground to visit the exhibition hall",
+	"scene.tips.text3": "Keyboard up / down / left / right move viewpoint",
+	"scene.info.down": "spread",
+	"scene.info.up": "fold",
+	"scene.tour.play": "Play",
+	"scene.visual.btn": "VisualAngle",
+	"scene.comment.btn": "Comment",
+	"scene.visual.roam": "Roam",
+	"scene.visual.3d": "Three",
+	"scene.visual.bird": "BirlEye",
+	"scene.map.btn": "Map",
+	"scene.music.btn": "Music",
+	"scene.share.btn": "Share",
+	"share.title": "QRCode Share:",
+	"share.link": "Link Share:"
+}

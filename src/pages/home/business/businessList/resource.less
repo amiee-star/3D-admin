@@ -1,0 +1,149 @@
+#rescource {
+	.red {
+		color: red;
+	}
+	.orange {
+		color: orange;
+	}
+	.cancel-btn {
+		margin-right: 15px;
+	}
+	.content {
+		h5 {
+			font-size: 18px;
+		}
+		.ant-form-item.title {
+			width: 100%;
+			margin-top: 18px;
+			.ant-form-item-label,
+			span {
+				font-weight: bold;
+			}
+			.ant-form-item-control-input-content {
+				span {
+					display: inline-block;
+					width: 150px;
+				}
+			}
+		}
+		.ant-row.input {
+			overflow-x: hidden;
+			& > span {
+				width: 150px;
+				line-height: 34px;
+				margin-left: 15px;
+			}
+			.ant-input-number {
+				width: 140px !important;
+				margin-left: 15px;
+			}
+		}
+		.ant-form-item.areaList {
+			.ant-form-item-control {
+				margin-top: 5px;
+				max-width: 100%;
+			}
+			.ant-radio-group {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.ant-radio-wrapper {
+				width: 81px;
+				height: 16px;
+				display: flex;
+				margin-bottom: 10px;
+			}
+		}
+		.ant-form-item.date {
+			margin-top: 30px;
+		}
+		.ant-form-item.date2 {
+			margin-top: 30px;
+			.ant-picker {
+				width: 140px;
+				margin-left: 15px;
+				span {
+					width: auto;
+					line-height: 1;
+				}
+			}
+		}
+		.ant-form-item.btn,
+		.ant-form-item.tips {
+			.ant-col {
+				max-width: 100%;
+				text-align: left;
+			}
+		}
+		.ant-form-item.tips {
+			p {
+				padding: 20px 20px 0 28px;
+				font-size: 12px;
+				color: #999;
+			}
+		}
+		.ant-form-item-label {
+			margin-right: 10px;
+			& > label::after {
+				display: none;
+			}
+		}
+		.ant-form-item-control {
+			text-align: center;
+		}
+		.ant-form-item {
+			margin-bottom: 2px;
+		}
+		.ant-picker {
+			width: 100%;
+		}
+		.ant-row {
+			overflow: hidden;
+		}
+		.info {
+			width: 450px;
+			height: 725px;
+			border-right: 1px dashed #ccc;
+			&.paddingRight {
+				padding-right: 30px;
+			}
+			.cancel {
+				width: 88px;
+				background-color: rgba(24, 144, 255, 0.2);
+				border-color: rgb(209, 233, 255);
+				color: #1890ff;
+				margin-left: 30px;
+			}
+		}
+		.order {
+			width: calc(100% - 450px);
+			max-height: 725px;
+			padding-left: 20px;
+			overflow-y: auto;
+			h5 {
+				margin-bottom: 22px;
+			}
+			.noData {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 18px;
+			}
+			.orderInfo {
+				margin-bottom: 40px;
+				.title {
+					display: flex;
+					p {
+						margin-right: 50px;
+						span {
+							color: #999;
+							margin-right: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

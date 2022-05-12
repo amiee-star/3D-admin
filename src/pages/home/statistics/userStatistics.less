@@ -1,0 +1,237 @@
+.userStatistics {
+	margin: -24px;
+	background-color: #f0f2f5;
+	padding-top: 10px;
+	.ant-spin {
+		max-height: inherit !important;
+	}
+	h4.title {
+		font-size: 22px;
+		font-family: SourceHanSansCN-Regular;
+		line-height: 22px;
+		color: #333333;
+		margin-bottom: 26px;
+	}
+	.sm-header {
+		display: flex;
+		justify-content: space-between;
+		ul {
+			margin-top: 5px;
+			padding-left: 0;
+			display: flex;
+			li {
+				list-style: none;
+				margin-right: 24px;
+				color: #999;
+				cursor: pointer;
+				&:hover {
+					color: #23b5fa;
+				}
+				&.active {
+					color: #23b5fa;
+				}
+			}
+		}
+	}
+	.header {
+		width: 100%;
+		background-color: #fff;
+		margin-top: -10px;
+		margin-bottom: 10px;
+		padding: 20px 40px 10px;
+		.ant-input,
+		.ant-select {
+			width: 140px;
+			margin-right: 20px;
+			height: 32px;
+		}
+		.ant-select.tempIdName {
+			width: 200px;
+		}
+		.ant-btn-primary {
+			margin-right: 12px;
+		}
+		ul {
+			margin-top: 5px;
+			padding-left: 0;
+			display: flex;
+			li {
+				list-style: none;
+				margin-right: 24px;
+				color: #999;
+				cursor: pointer;
+				&:hover {
+					color: #23b5fa;
+				}
+				&.active {
+					color: #23b5fa;
+				}
+			}
+		}
+		.ant-picker {
+			height: 32px;
+		}
+	}
+	.main {
+		max-height: 692px;
+		overflow-y: auto;
+	}
+	.content {
+		width: 100%;
+		height: 426px;
+		display: flex;
+		margin-bottom: 10px;
+		&.userContent {
+			height: 200px;
+			background-color: #fff;
+			padding: 35px 40px;
+			display: inline-block;
+			.title {
+				margin-bottom: 16px;
+			}
+			.userOverview {
+				width: 90%;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				padding-left: 0;
+				li {
+					min-width: 160px;
+					list-style: none;
+					text-align: center;
+					padding: 20px 30px;
+					p {
+						color: #999;
+						font-size: 14px;
+						margin-bottom: 10px;
+						.anticon {
+							margin-left: 5px;
+							cursor: pointer;
+						}
+					}
+					.num {
+						line-height: 28px;
+						font-size: 32px;
+						color: #333;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.userIndicators {
+			display: flex;
+			flex-wrap: wrap;
+			-webkit-box-pack: start;
+			justify-content: flex-start;
+		}
+		.left {
+			width: 460px;
+			height: 100%;
+			margin-right: 10px;
+			background-color: #fff;
+			padding: 35px 40px;
+		}
+		.right {
+			width: calc(100% - 460px);
+			height: 100%;
+			background-color: #fff;
+			padding: 35px 40px;
+		}
+		// .top,
+		// .bottom {
+		// 	background-color: #fff;
+		// 	padding: 35px 40px;
+		// }
+
+		p.update {
+			font-size: 14px;
+			font-family: SourceHanSansCN-Regular;
+			color: #999999;
+			margin-bottom: 12px;
+			svg {
+				margin-right: 6px;
+			}
+		}
+		.box {
+			width: 174px;
+			// height: 128px;
+			background-color: #fafafa;
+			padding: 26px 28px;
+			margin-bottom: 20px;
+			&:nth-of-type(2n) {
+				margin-left: 20px;
+			}
+			p {
+				color: #999;
+				font-size: 14px;
+				margin-bottom: 3px;
+				span.anticon {
+					margin-left: 5px;
+					cursor: pointer;
+				}
+			}
+			.num {
+				font-size: 28px;
+				color: #333;
+				font-weight: bold;
+			}
+		}
+		.echarts {
+			height: 100%;
+		}
+		// .bottom {
+		// 	height: calc(100% - 436px);
+		// 	.echarts {
+		// 		height: 100%;
+		// 	}
+		// }
+		.right {
+			.header {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				margin-bottom: 16px;
+				.title {
+					margin-bottom: 10px;
+				}
+				& > div {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					max-width: 510px;
+				}
+				ul {
+					// margin-top: 5px;
+					display: flex;
+					padding-left: 0;
+					li {
+						list-style: none;
+						margin-right: 24px;
+						color: #999;
+						cursor: pointer;
+						&:hover {
+							color: #23b5fa;
+						}
+						&.active {
+							color: #23b5fa;
+						}
+					}
+				}
+				.ant-picker {
+					margin-top: -5px;
+					height: 32px;
+					width: 40%;
+					min-width: 200px;
+				}
+			}
+			.top,
+			.bottom {
+				padding: 35px 40px;
+				position: relative;
+			}
+			.top {
+				border-bottom: 1px solid #f0f2f5;
+			}
+		}
+	}
+}

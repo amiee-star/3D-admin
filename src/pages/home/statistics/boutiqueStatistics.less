@@ -1,0 +1,131 @@
+.boutiqueStatistics {
+	// min-width: 1300px;
+	margin: -24px !important;
+	background-color: #f0f2f5;
+	// padding-top: 10px;
+	overflow: hidden;
+	h4.title {
+		font-size: 22px;
+		font-family: SourceHanSansCN-Regular;
+		line-height: 22px;
+		color: #333333;
+		margin-bottom: 26px;
+		span {
+			font-size: 14px;
+			margin-left: 6px;
+			position: relative;
+			top: -3px;
+			cursor: pointer;
+		}
+	}
+	#boutique-table {
+		tr {
+			cursor: pointer;
+		}
+	}
+	.ant-col {
+		width: 50%;
+	}
+	.left,
+	.right {
+		width: 100%;
+		height: 100%;
+	}
+	.left {
+		background-color: #fff;
+		position: relative;
+		padding: 35px 40px;
+		.header {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-bottom: 16px;
+			.title {
+				margin-bottom: 16px;
+			}
+		}
+		.date {
+			margin-top: -5px;
+			.ant-select {
+				margin-right: 10px;
+				margin-bottom: 10px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.right {
+		position: relative;
+		.r-t,
+		.r-b {
+			width: 100%;
+			background-color: #fff;
+			padding: 35px 40px;
+		}
+		.r-t {
+			height: 443px;
+			margin-bottom: 10px;
+			.header {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				margin-bottom: 16px;
+			}
+			.title {
+				margin-bottom: 10px;
+			}
+		}
+		.r-b {
+			height: calc(100% - 443px);
+		}
+		.date {
+			display: flex;
+			flex-wrap: wrap;
+			ul {
+				padding-left: 0;
+				display: flex;
+				li {
+					list-style: none;
+					margin-right: 24px;
+					color: #999;
+					cursor: pointer;
+					&:hover {
+						color: #23b5fa;
+					}
+					&.active {
+						color: #23b5fa;
+					}
+				}
+			}
+			.ant-picker {
+				width: 216px;
+				height: 32px;
+				margin-top: -5px;
+			}
+		}
+		.terminal-box {
+			width: 100%;
+			background: #ffffff;
+			.echarts {
+				height: 200px;
+			}
+			table {
+				width: 100%;
+			}
+			.ant-empty-description {
+				text-align: center;
+			}
+			.ant-table-thead > tr > th {
+				background: transparent;
+				color: #333;
+				font-size: 14px;
+				font-weight: bold;
+				font-family: SourceHanSansCN-Regular;
+			}
+			.ant-table-tbody > tr > td {
+				padding: 10px 16px;
+			}
+		}
+	}
+}

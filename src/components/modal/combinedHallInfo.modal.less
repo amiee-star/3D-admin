@@ -1,0 +1,417 @@
+.CombinedHallInfomodal {
+	.tips {
+		font-size: 12px;
+		color: #999999;
+	}
+	.ant-checkbox.ant-checkbox-checked::after {
+		display: none;
+	}
+	.ant-form-item .ant-input-textarea-show-count::after {
+		width: 38px;
+		position: absolute;
+		right: 10px;
+		bottom: 23px;
+		font-size: 12px;
+		background-color: #fff;
+	}
+	.ant-card-head {
+		padding: 0 40px;
+		font-size: 22px;
+		font-family: SourceHanSansCN-Regular;
+		.ant-card-extra {
+			.tishi {
+				display: flex;
+
+				.left {
+					margin-top: 15px;
+					margin-right: 65px;
+					font-size: 14px;
+					font-family: SourceHanSansCN-Regular;
+					.ys {
+						color: #17c9ff;
+					}
+					.zs {
+						color: #999999;
+					}
+				}
+			}
+		}
+	}
+	.ant-card-body {
+		display: flex;
+		padding: 20px 40px 0;
+		position: relative;
+		overflow-y: inherit !important;
+		overflow-x: inherit !important;
+		.ant-checkbox-inner {
+			width: 26px;
+			height: 26px;
+			border-radius: 26px;
+			position: absolute;
+			top: 92px;
+			left: 165px;
+			z-index: 2;
+		}
+		.ant-col-7 {
+			margin-right: 20px;
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
+		}
+		.ant-checkbox-wrapper {
+			width: 100%;
+		}
+		.ant-checkbox-checked .ant-checkbox-inner::after {
+			left: 35%;
+		}
+		.ant-checkbox-checked .ant-checkbox-inner {
+			background-color: #17bb07;
+			border-color: #17bb07;
+		}
+		.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+		.ant-checkbox:hover .ant-checkbox-inner,
+		.ant-checkbox-input:focus + .ant-checkbox-inner {
+			border-color: #17bb07;
+		}
+		.one {
+			display: flex;
+			width: 100%;
+			.left {
+				width: 76%;
+				height: 575px;
+				overflow-y: auto;
+				overflow-x: hidden;
+				margin-bottom: 90px;
+				.searchTips {
+					text-align: center;
+					width: 100%;
+					margin-top: 20px;
+				}
+				.ant-col {
+					height: 170px;
+				}
+				.ant-form {
+					position: absolute;
+					top: -45px;
+					left: 200px;
+				}
+				.ant-input {
+					width: 100%;
+				}
+				.list {
+					width: 204px;
+					height: 148px;
+					background: #ffffff;
+					box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+					margin-bottom: 20px;
+					cursor: pointer;
+					.top1 {
+						position: relative;
+					}
+
+					.top {
+						width: 100%;
+						height: 114px;
+						position: relative;
+						.thumbnail {
+							width: 120px;
+							height: auto;
+							position: absolute;
+							left: 50%;
+							top: 55%;
+							transform: translateX(-50%) translateY(-50%);
+						}
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+						}
+						.del {
+							position: absolute;
+							top: 5px;
+							right: 5px;
+							cursor: pointer;
+							width: 26px;
+							height: 26px;
+							border-radius: 50%;
+							background-color: rgba(0, 0, 0, 0.5);
+							border: 2px solid #fff;
+							i {
+								font-size: 12px;
+								width: 100%;
+								display: inline-block;
+								text-align: center;
+								color: #fff;
+							}
+						}
+						// .click {
+						// 	width: 26px;
+						// 	height: 26px;
+						// 	background: #ffffff;
+						// }
+					}
+					.title {
+						width: 100%;
+						height: 34px;
+						line-height: 34px;
+						color: #333333;
+						font-size: 14px;
+						font-family: SourceHanSansCN-Regular;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						padding-left: 12px;
+						.input {
+							border: none;
+						}
+					}
+					.noPadding {
+						padding-left: 0;
+					}
+				}
+			}
+			.fgx {
+				width: 1px;
+				height: calc(100% - 48px);
+				background: #e7e7e7;
+				border-radius: 1px;
+				position: relative;
+				top: -20px;
+			}
+			.right {
+				width: 240px;
+				padding-left: 10px;
+				margin-left: 20px;
+				.ant-checkbox-inner {
+					left: 165px;
+					z-index: 999;
+				}
+				.ant-col {
+					height: 170px;
+				}
+			}
+			.bottom {
+				width: 100%;
+				position: absolute;
+				box-shadow: 0px -1px 0px #eeeeee;
+				border-radius: 0px 0px 5px 5px;
+				bottom: 0;
+				left: 0;
+				height: 68px;
+				padding: 0 40px;
+				line-height: 68px;
+				font-size: 14px;
+				font-family: SourceHanSansCN-Regular;
+				color: #999999;
+				display: flex;
+				justify-content: space-between;
+				img {
+					width: 16px;
+					height: 16px;
+					margin-right: 6px;
+				}
+				.btn {
+					margin-top: 16px;
+				}
+			}
+		}
+		.two {
+			width: 100%;
+			display: flex;
+			margin-top: 15px;
+			.img_left {
+				width: 320px;
+				height: 515px;
+				background: #111111;
+				margin-top: 20px;
+				margin-bottom: 100px;
+			}
+			.fg {
+				width: 1px;
+				height: 549px;
+				background: #e7e7e7;
+				border-radius: 1px;
+				margin: -40px 30px 0;
+			}
+			.desc_right {
+				width: 100%;
+				font-size: 14px;
+				font-family: SourceHanSansCN-Regular;
+				color: #333333;
+				width: 540px;
+				.uplode {
+					display: flex;
+					.uplode_web {
+						.web_title {
+							font-family: SourceHanSansCN-Regular;
+							.web_name {
+								font-size: 14px;
+								color: #666666;
+							}
+							.web_desc {
+								font-size: 12px;
+								color: #999999;
+							}
+						}
+						.up_web {
+							width: 192px;
+							height: 120px;
+							background: #ffffff;
+							border: 1px solid #dddddd;
+							border-radius: 3px;
+							display: block;
+							margin-left: 70px;
+							margin-top: 10px;
+							cursor: pointer;
+							position: relative;
+							input {
+								display: contents;
+							}
+							.xianshi {
+								max-width: 100%;
+								max-height: 100%;
+								position: absolute;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+							}
+
+							.img1 {
+								display: block;
+								width: 32px;
+								height: 32px;
+								margin: 31px auto 11px;
+							}
+							.img2 {
+								display: none;
+								width: 32px;
+								height: 32px;
+								margin: 31px auto 11px;
+							}
+							.wenzi {
+								width: 100%;
+								text-align: center;
+								font-size: 14px;
+								font-family: SourceHanSansCN-Regular;
+								color: #999999;
+							}
+							&:hover {
+								.img2 {
+									display: block;
+								}
+								.img1 {
+									display: none;
+								}
+								.wenzi {
+									color: #19a0f1;
+								}
+							}
+						}
+						.jianyi {
+							margin-left: 70px;
+							margin-top: 13px;
+							font-size: 12px;
+							color: #999999;
+						}
+						.phone_title {
+							margin-left: 65px;
+							font-size: 14px;
+							color: #666666;
+						}
+						.up_phone {
+							width: 74px;
+							height: 120px;
+							background: #ffffff;
+							border: 1px solid #dddddd;
+							border-radius: 3px;
+						}
+						.phone_tishi {
+							margin-left: 65px;
+							font-size: 12px;
+							color: #999999;
+							margin-top: 13px;
+						}
+					}
+				}
+				.saoma {
+					margin-top: 26px;
+					display: flex;
+					.saoma_title {
+						font-size: 14px;
+						font-family: SourceHanSansCN-Regular;
+						color: #333333;
+					}
+					img {
+						width: 120px;
+						height: 120px;
+						background: #ffffff;
+						border: 1px solid #e7e7e7;
+					}
+					.saoma_right {
+						margin-bottom: 65px;
+						width: 100%;
+						.fx {
+							display: flex;
+							margin-bottom: 20px;
+							justify-content: space-between;
+							.fenxiangImg {
+								img {
+									width: 18px;
+									height: 18px;
+									margin-left: 30px;
+								}
+							}
+						}
+
+						.fuzhi {
+							display: flex;
+							.fuziBtn {
+								width: 68px;
+								height: 36px;
+								border: 1px solid #dddddd;
+								border-radius: 3px;
+								text-align: center;
+								line-height: 36px;
+								margin-left: 8px;
+								cursor: pointer;
+							}
+						}
+					}
+				}
+			}
+			.bottom {
+				position: absolute;
+				display: flex;
+				width: 100%;
+				bottom: 0;
+				left: 0;
+				height: 68px;
+				background: #ffffff;
+				box-shadow: 0px -1px 0px #eeeeee;
+				border-radius: 0px 0px 5px 5px;
+				.btn {
+					width: 144px;
+					height: 36px;
+					text-align: center;
+					line-height: 36px;
+					background: #ffffff;
+					border: 1px solid #dcdfe6;
+					border-radius: 3px;
+					margin: 16px 0 0 280px;
+					cursor: pointer;
+				}
+				.baocun {
+					width: 144px;
+					height: 36px;
+					background: #23b5fa;
+					border-radius: 3px;
+					text-align: center;
+					line-height: 36px;
+					margin: 16px 0 0 12px;
+					color: #fff;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

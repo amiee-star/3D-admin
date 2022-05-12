@@ -1,0 +1,57 @@
+#devMeal{
+  font-family: SourceHanSansCN-Regular;
+  .contain{
+    padding: 16px;
+  }
+  ul,li{
+    list-style: none;
+    padding: 0;
+  }
+  .mealList{
+    margin-bottom: 40px;
+    li{
+      width: 149px;
+      height: 180px;
+      background: #F0F2F5;
+      border: 2px solid transparent;
+      cursor: pointer;
+      color: #909399;
+      position: relative;
+      >P>span{
+        color: #303133;
+        margin-left: 3px;
+      }
+      .name{
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 30px;
+      }
+      .time{
+        margin-bottom: 0;
+      }
+      &:hover{
+        border: 2px solid #23B5FA;
+      }
+    }
+    .active{
+      background: #23B5FA;
+      p,span{
+        color: #FFFFFF;
+      }
+    }
+    .activeTitle{
+      width: 60px;
+      height: 21px;
+      background: #FE7303;
+      position: absolute;
+      right: -2px;
+      top:-2px;
+      font-size: 12px;
+      color: #fff;
+    }
+  }
+  .tips{
+    color: #606266;
+    margin-bottom: 15px;
+  }
+}
